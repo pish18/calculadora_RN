@@ -97,8 +97,6 @@ public class main{
 				numbersBtn[i]=new JButton("=");
 				break;
 			}
-			/*numbersBtn[i].setBounds(bx,by, bw,bh);
-			bx+=bw+5;*/
 			panelForBtns.add(numbersBtn[i]);
 			numbersBtn[i].addActionListener(new ActionListener() {
 				@Override
@@ -109,53 +107,6 @@ public class main{
 		}
 		
 		
-	/*	for (int j=0; j<numbersBtn.length; j++) {
-			numbersBtn[j].addActionListener(new ActionListener() {
-				@Override
-				public void actionPerformed(ActionEvent arg0) {
-					switch (j) {
-					case 0:
-						result.setText("7");
-						break;
-					case 1:
-						numbersBtn[j]=new JButton("8");
-						break;
-						
-					case 2:
-						numbersBtn[j]=new JButton("9");
-						break;
-						
-					case 3:
-						numbersBtn[j]=new JButton("4");
-						break;
-						
-					case 4:
-						numbersBtn[j]=new JButton("5");
-						break;
-						
-					case 5:
-						numbersBtn[j]=new JButton("6");
-						break;
-						
-					case 6:
-						numbersBtn[j]=new JButton("1");
-						break;
-						
-					case 7:
-						numbersBtn[j]=new JButton("2");
-						break;
-						
-					case 8:
-						numbersBtn[j]=new JButton("3");
-						break;
-					case 9:
-						numbersBtn[j]=new JButton("0");
-						break;
-					}
-				}
-				
-			});
-		}*/
 		
 		//BUTTONS
 		
